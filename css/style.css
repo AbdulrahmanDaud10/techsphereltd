@@ -1495,5 +1495,84 @@ textarea.form-control {
   position: absolute;
   content: '';
 }
+.page-title {
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .about .content {
+    text-align: center;
+  }
+}
+
+.about .content h2 {
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.about .about-slider .item {
+  padding: 20px;
+}
+
+.about .about-slider .owl-dots .owl-dot:hover span {
+  background: #2e7eed;
+}
+
+.about .about-slider .owl-dots .owl-dot.active span {
+  background: #2e7eed;
+}
+
+.blog-single .about-author h2 {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+@media (max-width: 480px) {
+  .blog-single .about-author h2 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .blog-single .about-author .media {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 480px) {
+  .blog-single .about-author .media .image {
+    flex-grow: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.blog-single .about-author .media .image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+.blog-single .about-author .media .media-body {
+  margin-left: 40px;
+}
+
+@media (max-width: 480px) {
+  .blog-single .about-author .media .media-body {
+    flex-grow: 1;
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+
+.blog-single .about-author .media .media-body p {
+  margin-bottom: 15px;
+}
+
 
 /*# sourceMappingURL=maps/style.css.map */
