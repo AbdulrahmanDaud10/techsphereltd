@@ -2014,4 +2014,78 @@ textarea.form-control {
 .banner-full .block .app {
   margin-bottom: 20px;
 }
+.address .block .address-block {
+  text-align: center;
+}
+
+.address .block .address-block .icon {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.address .block .address-block .icon i {
+  display: block;
+  height: 100px;
+  width: 100px;
+  background: #fafafa;
+  border-radius: 100%;
+  font-size: 45px;
+  text-align: center;
+  line-height: 100px;
+}
+.google-map {
+  position: relative;
+}
+
+.google-map #map_canvas {
+  height: 500px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .google-map #map_canvas {
+    height: 350px;
+  }
+}
+
+.company-fun-facts h2 {
+  margin-bottom: 60px;
+}
+
+.company-fun-facts .fun-fact {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.company-fun-facts .fun-fact i {
+  font-size: 25px;
+  display: inline-block;
+  margin-bottom: 10px;
+  line-height: 60px;
+  height: 60px;
+  width: 60px;
+  border: 1px solid #000;
+  border-radius: 100%;
+}
+
+.company-fun-facts h2 {
+  margin-bottom: 60px;
+}
+
+.company-fun-facts .fun-fact {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.company-fun-facts .fun-fact i {
+  font-size: 25px;
+  display: inline-block;
+  margin-bottom: 10px;
+  line-height: 60px;
+  height: 60px;
+  width: 60px;
+  border: 1px solid #000;
+  border-radius: 100%;
+}
 /*# sourceMappingURL=maps/style.css.map */
